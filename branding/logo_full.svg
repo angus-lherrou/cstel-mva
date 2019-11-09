@@ -15,7 +15,10 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="logo_full.svg">
+   sodipodi:docname="logo_full.svg"
+   inkscape:export-filename="/home/stygg/Documents/cstel-mva/branding/logo_full.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
   <defs
      id="defs2">
     <inkscape:perspective
@@ -37,7 +40,7 @@
      inkscape:cx="895.95241"
      inkscape:cy="379.46851"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g905"
      showgrid="false"
      units="px"
      inkscape:snap-object-midpoints="true"
@@ -71,6 +74,9 @@
        inkscape:locked="false"
        inkscape:label=""
        inkscape:color="rgb(0,0,255)" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid924" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -80,7 +86,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -92,53 +98,62 @@
     <g
        id="g905"
        transform="translate(9.2306757,14.10378)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path854"
-         d="M 20.171175,247.5475 69.609352,276.09063 53.129967,247.5475 Z"
-         style="fill:#284689;fill-opacity:0.99620493;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path856"
-         d="m 119.04756,247.54749 -65.917593,1e-5 16.479385,28.54313 z"
-         style="fill:#4b67a8;fill-opacity:0.99620493;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         style="fill:#7ea4ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 119.04756,190.46119 -49.438194,-28.54313 16.47938,28.54313 z"
-         id="path874"
-         inkscape:connector-curvature="0" />
-      <path
-         style="fill:#6062ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m 20.171176,190.4612 65.91757,-1e-5 -16.47938,-28.54313 z"
-         id="path876"
-         inkscape:connector-curvature="0" />
-      <text
-         id="text882"
-         y="233.10812"
-         x="110.34013"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:49.38888931px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+      <g
+         id="g950"
+         transform="translate(-0.50434947)">
+        <path
+           style="fill:#284689;fill-opacity:0.99620493;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="M 43.454523,247.5475 92.8927,276.09063 76.413315,247.5475 Z"
+           id="path854"
+           inkscape:connector-curvature="0" />
+        <path
+           style="fill:#4b67a8;fill-opacity:0.99620493;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 142.33104,247.54749 -65.917725,1e-5 16.479385,28.54313 z"
+           id="path856"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path874"
+           d="M 142.33104,190.46119 92.892714,161.91806 109.37214,190.46119 Z"
+           style="fill:#7ea4ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path876"
+           d="m 43.454524,190.4612 65.917616,-1e-5 -16.479426,-28.54313 z"
+           style="fill:#6062ff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#6062ff;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="133.62335"
            y="233.10812"
-           x="110.34013"
-           id="tspan880"
-           sodipodi:role="line">cholar</tspan></text>
-      <text
-         id="text886"
-         y="233.10812"
-         x="-90.365158"
-         style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:49.38888931px;font-family:'Liberation Mono';-inkscape-font-specification:'Liberation Mono, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332"
+           id="text882"><tspan
+             sodipodi:role="line"
+             id="tspan880"
+             x="133.62335"
+             y="233.10812"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:49.38888931px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#6062ff;fill-opacity:1;stroke-width:0.26458332">cholar</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+           x="-85.073509"
            y="233.10812"
-           x="-90.365158"
-           id="tspan884"
-           sodipodi:role="line">holo</tspan></text>
-      <path
-         inkscape:connector-curvature="0"
-         id="path890"
-         d="m 20.171177,190.4612 65.917569,-1e-5 32.958814,57.0863 -65.917593,1e-5 z"
-         style="fill:#648cff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+           id="text886"><tspan
+             sodipodi:role="line"
+             id="tspan884"
+             x="-85.073509"
+             y="233.10812"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:49.38888931px;font-family:Helvetica;-inkscape-font-specification:'Helvetica Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;stroke-width:0.26458332">holo</tspan></text>
+        <path
+           style="fill:#648cff;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           d="m 43.454525,190.4612 65.917615,-1e-5 32.9589,57.0863 -65.917725,1e-5 z"
+           id="path890"
+           inkscape:connector-curvature="0" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path938"
+           d="m 30.276801,174.78113 v 83.91072"
+           style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      </g>
     </g>
   </g>
 </svg>
