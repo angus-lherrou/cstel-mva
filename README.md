@@ -1,6 +1,6 @@
-## cstel-mva
+# cstel-mva
 codestellation 2019
-# contributors
+## contributors
 * maxwell hunsinger
 * angus l'herrou
 * viking mayor
