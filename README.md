@@ -1,6 +1,6 @@
-# cstel-mva
-codestellation 2019
+# Holo | Scholar
+![Codestellation 2019](branding/repo-img.png?raw=true)
 ## contributors
-* maxwell hunsinger
-* angus l'herrou
-* viking mayor
+* Maxwell Hunsinger
+* Angus L’Herrou
+* Viking Mayor
