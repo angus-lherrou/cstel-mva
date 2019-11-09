@@ -1,0 +1,11 @@
+/home/stygg/Documents/cstel-mva/bin/Debug/netcoreapp3.0/cstel-mva
+/home/stygg/Documents/cstel-mva/bin/Debug/netcoreapp3.0/cstel-mva.deps.json
+/home/stygg/Documents/cstel-mva/bin/Debug/netcoreapp3.0/cstel-mva.runtimeconfig.json
+/home/stygg/Documents/cstel-mva/bin/Debug/netcoreapp3.0/cstel-mva.runtimeconfig.dev.json
+/home/stygg/Documents/cstel-mva/bin/Debug/netcoreapp3.0/cstel-mva.dll
+/home/stygg/Documents/cstel-mva/bin/Debug/netcoreapp3.0/cstel-mva.pdb
+/home/stygg/Documents/cstel-mva/obj/Debug/netcoreapp3.0/cstel-mva.csprojAssemblyReference.cache
+/home/stygg/Documents/cstel-mva/obj/Debug/netcoreapp3.0/cstel-mva.AssemblyInfoInputs.cache
+/home/stygg/Documents/cstel-mva/obj/Debug/netcoreapp3.0/cstel-mva.AssemblyInfo.cs
+/home/stygg/Documents/cstel-mva/obj/Debug/netcoreapp3.0/cstel-mva.dll
+/home/stygg/Documents/cstel-mva/obj/Debug/netcoreapp3.0/cstel-mva.pdb
