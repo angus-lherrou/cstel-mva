@@ -4,10 +4,8 @@ namespace modelbank {
     class Book {
         string Name;
         HashSet<string> Identifiers;
-
         Dictionary<string,Model> Models;
         HashSet<string> Names;
-
         List<Page> Pages;
 
         public Book(string name) {
@@ -29,12 +27,23 @@ namespace modelbank {
             
         }
 
+        public void AddPage() {
+            Pages.Add(new Page());
+        }
+
+        public void InsertPage(int index) {
+            Pages.Insert(index, new Page());
+        }
+
+        public void AddToPage(int pageNumber, string name) {
+            GetPage(pageNumber).Add(GetModel(name).GetId());
+        }
         public Page GetPage(int page) {
             return Pages[page];
         }
 
-        public Model GetModel(string id) {
-            return Models[id];
+        public Model GetModel(string name) {
+            return Models[name];
         }
 
         public override string ToString() {

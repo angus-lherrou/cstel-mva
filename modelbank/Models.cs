@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using System.IO;
 
 namespace modelbank {
     class Model {
@@ -37,6 +36,10 @@ namespace modelbank {
 
         public string GetName() {
             return Name;
+        }
+
+        public string GetPath() {
+            return Path;
         }
 
         public override string ToString() {
