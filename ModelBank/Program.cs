@@ -1,6 +1,7 @@
 using System;
+using System.IO;
 
-namespace ModelBank
+namespace Program
 {
     class Program
     {
@@ -14,10 +15,13 @@ namespace ModelBank
             string pageManifest = args[1];
             int pageNumber = Convert.ToInt32(args[2]);
             int modelNumber = Convert.ToInt32(args[3]);
-            ModelBank mb = new ModelBank("book");
-            mb.MakeBook(modelManifest);
+            ModelBank.ModelBank mb = new ModelBank.ModelBank("book");
+            try {mb.MakeBook(modelManifest);
             mb.MakePages(pageManifest);
             Console.Write(mb.GetUnityPath(pageNumber, modelNumber));
+            } catch (FileNotFoundException e) {
+                Console.WriteLine("File(s) not found");
+            }
         }
     }
 }

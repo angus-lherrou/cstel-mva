@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 
 namespace ModelBank {
-    class ModelBank {
+    public class ModelBank {
 
         Book Book;
         Dictionary<string, string> ModelDict;
