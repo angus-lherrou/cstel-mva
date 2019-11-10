@@ -52,6 +52,10 @@ namespace ModelBank {
             return Models[name];
         }
 
+        public string GetName() {
+            return Name;
+        }
+
         public override string ToString() {
             var str = "";
             foreach ((string id, Model m) in Models) {
