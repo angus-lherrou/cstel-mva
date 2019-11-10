@@ -1,2 +1,3 @@
-ModelBank/obj
+ModelBank/.vscode/
+ModelBank/obj/
 ModelBank/bin/Debug/net*
