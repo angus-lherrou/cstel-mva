@@ -29,7 +29,7 @@ To run the executable, pass four arguments: absolute path to the model manifest,
        ```
     2. Call `dotnet add app package ModelBank` from the solution root
     3. Add a `using ModelBank;` statement to the top of your `.cs` file where you're using the package
-3. ...or import [ModelBank.dll](obj/Debug/netcoreapp3.0/ModelBank.dll).
+3. ...or import [ModelBank.dll](bin/Debug/netcoreapp3.0/ModelBank.dll).
 4. Create a new `ModelBank` object by constructing it with a name string for your book
 5. Add models to your book by calling `<your ModelBank object>.MakeBook(pathToModelManifest)`
 6. Add pages to your book by calling `<your ModelBank object>.MakePages(pathToPageManifest)`
