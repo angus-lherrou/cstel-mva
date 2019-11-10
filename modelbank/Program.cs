@@ -14,23 +14,23 @@ namespace modelbank {
             book1.AddPage();
             book1.AddToPage(0, "theobromine");
             try {
-                // Console.WriteLine(Directory.GetCurrentDirectory());
+                Console.WriteLine(Directory.GetCurrentDirectory());
             } catch (Exception e) {
                 Console.WriteLine("Exception! "+e);
             }
             
-            //Console.WriteLine(GetAbsoluteModelPath(GetModelOnPage(book1, 0, 0)));
+            Console.WriteLine(GetAbsoluteModelPath(GetModelOnPage(book1, 0, 0)));
         }
 
         public static Model GetModelOnPage(Book b, int page, int num) {
-            var id = b.GetPage(page).GetIdList()[num];
+            var id = b.GetPage(page).GetNameList()[num];
             return b.GetModel(id);
         }
 
         public static string GetAbsoluteModelPath(Model model) {
             string p = "No path!";
             try {
-               // p = Path.GetFullPath(model.GetPath());
+                p = Path.GetFullPath(model.GetPath());
             } catch (Exception e) {
                 e.ToString();
             }

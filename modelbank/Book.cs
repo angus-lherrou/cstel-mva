@@ -3,13 +3,11 @@ using System.Collections.Generic;
 namespace modelbank {
     class Book {
         string Name;
-        HashSet<string> Identifiers;
         Dictionary<string,Model> Models;
         HashSet<string> Names;
         List<Page> Pages;
 
         public Book(string name) {
-            Identifiers = new HashSet<string>();
             Names = new HashSet<string>();
             Models = new Dictionary<string, Model>();
             Pages = new List<Page>();
@@ -18,7 +16,7 @@ namespace modelbank {
 
         public void Add(string name, string path) {
             if (!Names.Contains(name)) {
-                var m = new Model(Identifiers, name, path);
+                var m = new Model(name, path);
                 Models.Add(m.GetName(), m);
                 Names.Add(name);
             } else {
@@ -36,7 +34,7 @@ namespace modelbank {
         }
 
         public void AddToPage(int pageNumber, string name) {
-            GetPage(pageNumber).Add(GetModel(name).GetId());
+            GetPage(pageNumber).Add(GetModel(name).GetName());
         }
         public Page GetPage(int page) {
             return Pages[page];

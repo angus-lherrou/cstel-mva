@@ -2,21 +2,21 @@ using System.Collections.Generic;
 
 namespace modelbank {
     class Page {
-        List<string> Ids;
+        List<string> Names;
 
         public Page() {
-            Ids = new List<string>();
+            Names = new List<string>();
         }
 
         public void Add(string uuid) {
-            Ids.Add(uuid);
+            Names.Add(uuid);
         }
 
         /// <remarks>
-        /// To return an individual ID, just use GetIdList()[index]
+        /// To return an individual name, just use GetNameList()[index]
         /// </remarks>
-        public List<string> GetIdList() {
-            return Ids;
+        public List<string> GetNameList() {
+            return Names;
         }
     }
 }
