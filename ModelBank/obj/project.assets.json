@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/stygg/Documents/holoscholar/modelbank/modelbank.csproj",
-      "projectName": "modelbank",
-      "projectPath": "/home/stygg/Documents/holoscholar/modelbank/modelbank.csproj",
+      "projectUniqueName": "/home/stygg/Documents/holoscholar/ModelBank/ModelBank.csproj",
+      "projectName": "ModelBank",
+      "projectPath": "/home/stygg/Documents/holoscholar/ModelBank/ModelBank.csproj",
       "packagesPath": "/home/stygg/.nuget/packages/",
-      "outputPath": "/home/stygg/Documents/holoscholar/modelbank/obj/",
+      "outputPath": "/home/stygg/Documents/holoscholar/ModelBank/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/stygg/.nuget/NuGet/NuGet.Config"

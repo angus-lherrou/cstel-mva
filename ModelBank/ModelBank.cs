@@ -6,6 +6,10 @@ namespace ModelBank {
 
         Book Book;
         Dictionary<string, string> ModelDict;
+
+        static void Main(string[] args) {
+            
+        }
         
         public ModelBank(string name) {
             ModelDict = new Dictionary<string, string>();
