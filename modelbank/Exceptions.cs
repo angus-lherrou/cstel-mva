@@ -15,7 +15,7 @@ namespace modelbank {
         }
 
         public DuplicateNameException(string name, string book) : base(String.Format("Model with name {0} already exists in book {1}", name, book)) {
-
+            
         }
     }
 }
