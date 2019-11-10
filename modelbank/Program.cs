@@ -13,8 +13,13 @@ namespace modelbank {
             book1.Add("theobromine", "models/Theobromine.obj");
             book1.AddPage();
             book1.AddToPage(0, "theobromine");
-
-            Console.WriteLine(GetAbsoluteModelPath(GetModelOnPage(book1, 0, 0)));
+            try {
+                // Console.WriteLine(Directory.GetCurrentDirectory());
+            } catch (Exception e) {
+                Console.WriteLine("Exception! "+e);
+            }
+            
+            //Console.WriteLine(GetAbsoluteModelPath(GetModelOnPage(book1, 0, 0)));
         }
 
         public static Model GetModelOnPage(Book b, int page, int num) {
@@ -23,7 +28,13 @@ namespace modelbank {
         }
 
         public static string GetAbsoluteModelPath(Model model) {
-            return Path.GetFullPath(model.GetPath());
+            string p = "No path!";
+            try {
+               // p = Path.GetFullPath(model.GetPath());
+            } catch (Exception e) {
+                e.ToString();
+            }
+            return p;
         }
     }
 }
