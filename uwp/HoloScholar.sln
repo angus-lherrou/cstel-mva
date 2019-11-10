@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloScholar", "Assembly-CSharp.csproj", "{21EE457F-CA68-DE00-3188-AA81CC33D922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoloScholar", "Assembly-CSharp-Editor.csproj", "{F6488DF4-F713-1090-39A5-3129358A0CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21EE457F-CA68-DE00-3188-AA81CC33D922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EE457F-CA68-DE00-3188-AA81CC33D922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EE457F-CA68-DE00-3188-AA81CC33D922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EE457F-CA68-DE00-3188-AA81CC33D922}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6488DF4-F713-1090-39A5-3129358A0CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6488DF4-F713-1090-39A5-3129358A0CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6488DF4-F713-1090-39A5-3129358A0CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6488DF4-F713-1090-39A5-3129358A0CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

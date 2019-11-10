@@ -1,0 +1,4 @@
+sceneSetups:
+- path: D:/Libraries/Downloads/HolographicAcademy-Holograms-101 (2)/HolographicAcademy-Holograms-101/Origami/Assets/loadScene.unity
+  isLoaded: 1
+  isActive: 1
