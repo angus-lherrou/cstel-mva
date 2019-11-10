@@ -1,5 +1,5 @@
 # ModelBank
-v. 1.0.3
+v. 1.0.3.1
 
 ## Caveats
 Hi, this code is almost completely undocumented outside of this README. Sorry! Please follow these instructions to the letter.
@@ -10,6 +10,9 @@ This code has almost no protection against edge cases as of v. 1.0.3, so please 
 * If your model manifest is formatted incorrectly, you MIGHT get a FileLoadException. Don't count on it, but catch it regardless.
 * If your page manifest contains model names that don't exist in your book, you'll get a ModelDoesNotExistException. Catch this. 
 * Obviously, if you're pointing to files that don't exist, you'll get a FileNotFoundException. Catch!!
+
+## Executable Instructions
+To run the executable, pass four arguments: absolute path to the model manifest, absolute path to the page manifest, page number, and model number (indexed at zero).
 
 ## Usage Instructions
 1. You'll want two manifest files: a file with model names and directories, and a file with pages and model names. Create these in the following formats:
