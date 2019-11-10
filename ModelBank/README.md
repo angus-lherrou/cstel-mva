@@ -1,10 +1,10 @@
 # ModelBank
-v. 1.0.2
+v. 1.0.3
 
 ## Caveats
 Hi, this code is almost completely undocumented outside of this README. Sorry! Please follow these instructions to the letter.
 
-This code has almost no protection against edge cases as of v. 1.0.2, so please be very careful how you implement this. Remember to catch FileNotFoundExceptions!
+This code has almost no protection against edge cases as of v. 1.0.3, so please be very careful how you implement this. Remember to catch FileNotFoundExceptions!
 
 ## Exceptions to catch
 * If your model manifest is formatted incorrectly, you MIGHT get a FileLoadException. Don't count on it, but catch it regardless.
@@ -13,8 +13,8 @@ This code has almost no protection against edge cases as of v. 1.0.2, so please 
 
 ## Usage Instructions
 1. You'll want two manifest files: a file with model names and directories, and a file with pages and model names. Create these in the following formats:
-    * Model Manifest: on each line, a model name, followed by a pipe, followed by a directory (absolute or relative to your code). Use forward slashes or \\escaped backslashes.
-        * Example: `Caffeine|c:/Users/Angus/Documents/MyModels/caffeine.obj`
+    * Model Manifest: on each line, a model name, followed by a pipe, followed by a file path, relative to your Unity Models directory. Use forward slashes or \\escaped backslashes.
+        * Example: `Caffeine|caffeine.obj`
     * Page Manifest: on each line, a series of model names separated by commas.
         * Example: `Caffeine,Hydrochloric Acid,Buckminsterfullerene`
 2. Import the nuget package into your code
