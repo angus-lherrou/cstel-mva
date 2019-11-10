@@ -1,0 +1,11 @@
+/home/stygg/Documents/holoscholar/modelbank/bin/Debug/netcoreapp3.0/modelbank
+/home/stygg/Documents/holoscholar/modelbank/bin/Debug/netcoreapp3.0/modelbank.deps.json
+/home/stygg/Documents/holoscholar/modelbank/bin/Debug/netcoreapp3.0/modelbank.runtimeconfig.json
+/home/stygg/Documents/holoscholar/modelbank/bin/Debug/netcoreapp3.0/modelbank.runtimeconfig.dev.json
+/home/stygg/Documents/holoscholar/modelbank/bin/Debug/netcoreapp3.0/modelbank.dll
+/home/stygg/Documents/holoscholar/modelbank/bin/Debug/netcoreapp3.0/modelbank.pdb
+/home/stygg/Documents/holoscholar/modelbank/obj/Debug/netcoreapp3.0/modelbank.csprojAssemblyReference.cache
+/home/stygg/Documents/holoscholar/modelbank/obj/Debug/netcoreapp3.0/modelbank.AssemblyInfoInputs.cache
+/home/stygg/Documents/holoscholar/modelbank/obj/Debug/netcoreapp3.0/modelbank.AssemblyInfo.cs
+/home/stygg/Documents/holoscholar/modelbank/obj/Debug/netcoreapp3.0/modelbank.dll
+/home/stygg/Documents/holoscholar/modelbank/obj/Debug/netcoreapp3.0/modelbank.pdb
