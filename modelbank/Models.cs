@@ -8,10 +8,13 @@ namespace modelbank {
         private string Id;
         private string Name;
 
-        public Model(HashSet<string> identifiers, string name) {
+        private string Path;
+
+        public Model(HashSet<string> identifiers, string name, string path) {
             Identifiers = identifiers;
             Name = name;
-            Id = GenUuid();
+            Id = GenUuid();            
+            Path = path;
         }
 
         string GenUuid() {
@@ -28,11 +31,11 @@ namespace modelbank {
             return id;
         }
 
-        public string getId() {
+        public string GetId() {
             return Id;
         }
 
-        public string getName() {
+        public string GetName() {
             return Name;
         }
 

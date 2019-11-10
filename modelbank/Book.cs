@@ -18,10 +18,10 @@ namespace modelbank {
             Name = name;
         }
 
-        public void Add(string name) {
+        public void Add(string name, string path) {
             if (!Names.Contains(name)) {
-                var m = new Model(Identifiers, name);
-                Models.Add(m.getId(), m);
+                var m = new Model(Identifiers, name, path);
+                Models.Add(m.GetId(), m);
                 Names.Add(name);
             } else {
                 throw new DuplicateNameException(name, Name);
