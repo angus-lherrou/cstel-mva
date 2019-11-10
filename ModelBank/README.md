@@ -28,7 +28,7 @@ This code has almost no protection against edge cases as of v. 1.0.3, so please 
 3. Create a new `ModelBank` object by constructing it with a name string for your book
 4. Add models to your book by calling `<your ModelBank object>.MakeBook(pathToModelManifest)`
 5. Add pages to your book by calling `<your ModelBank object>.MakePages(pathToPageManifest)`
-6. To get the path to a model file for the `n`th model on the `m`th page, call `<your ModelBank object>.GetPath(m, n)` (both indexed at zero).
+6. To get the path to a model file for the `n`th model on the `m`th page, call `<your ModelBank object>.GetUnityPath(m, n)` (both indexed at zero).
 
 ## Credits
 * Blessed be to Microsoft for their .NET documentation
