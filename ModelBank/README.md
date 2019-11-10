@@ -18,7 +18,9 @@ This code has almost no protection against edge cases as of v. 1.0.2, so please 
   * Page Manifest: on each line, a series of model names separated by commas.
     * Example: `Caffeine,Hydrochloric Acid,Buckminsterfullerene`
 2. Import the nuget package into your code
-  1. ```<RestoreSources>$(RestoreSources);absolute-path-to-my-solution/library/bin/Debug;https://api.nuget.org/v3/index.json</RestoreSources>`
+  1. ```xml
+     <RestoreSources>$(RestoreSources);absolute-path-to-my-solution/library/bin/Debug;https://api.nuget.org/v3/index.json</RestoreSources>
+     ```
 
 3. Create a new `ModelBank` object by constructing it with a name string for your book
 4. Add models to your book by calling `<your ModelBank object>.MakeBook(pathToModelManifest)`
