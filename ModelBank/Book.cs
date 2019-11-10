@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace modelbank {
+namespace ModelBank {
     class Book {
         string Name;
         Dictionary<string,Model> Models;
@@ -26,11 +26,19 @@ namespace modelbank {
         }
 
         public void AddPage() {
-            Pages.Add(new Page());
+            this.AddPage(new Page());
+        }
+
+        public void AddPage(Page page) {
+            Pages.Add(page);
         }
 
         public void InsertPage(int index) {
-            Pages.Insert(index, new Page());
+            this.InsertPage(index, new Page());
+        }
+
+        public void InsertPage(int index, Page page) {
+            Pages.Insert(index, page);
         }
 
         public void AddToPage(int pageNumber, string name) {

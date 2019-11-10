@@ -1,5 +1,5 @@
 using System;
-namespace modelbank {
+namespace ModelBank {
     class CollisionException : Exception {
         public CollisionException() {
 

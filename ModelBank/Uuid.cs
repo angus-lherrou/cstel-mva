@@ -26,7 +26,7 @@
 
 using System;
 
-namespace modelbank {
+namespace ModelBank {
 static class Uuid
 {
 

@@ -1,7 +1,6 @@
 using System;
-using System.Collections.Generic;
 
-namespace modelbank {
+namespace ModelBank {
     class Model {
         private string Name;
         private string Path;

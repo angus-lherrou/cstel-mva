@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace modelbank {
+namespace ModelBank {
     class Page {
         List<string> Names;
 
@@ -8,8 +8,8 @@ namespace modelbank {
             Names = new List<string>();
         }
 
-        public void Add(string uuid) {
-            Names.Add(uuid);
+        public void Add(string name) {
+            Names.Add(name);
         }
 
         /// <remarks>
