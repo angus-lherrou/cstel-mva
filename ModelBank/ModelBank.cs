@@ -43,8 +43,12 @@ namespace ModelBank {
             }
         }
 
-        public string GetPath(int pageNumber, int modelNumber) {
+        public string GetAbsolutePath(int pageNumber, int modelNumber) {
             return GetAbsoluteModelPath(GetModelOnPage(pageNumber, modelNumber));
+        }
+
+        public string GetUnityPath(int pageNumber, int modelNumber) {
+            return OsCompat.LocalizedPath("Models/"+GetModelOnPage(pageNumber, modelNumber).GetPath());
         }
 
         Model GetModelOnPage(int page, int num) {

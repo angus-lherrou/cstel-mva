@@ -1,2 +1,0 @@
-theobromine|models/Theobromine.obj
-buckyball|models/buckyball.fbx
