@@ -13,14 +13,17 @@ This code has almost no protection against edge cases as of v. 1.0.2, so please 
 
 ## Usage Instructions
 1. You'll want two manifest files: a file with model names and directories, and a file with pages and model names. Create these in the following formats:
-  * Model Manifest: on each line, a model name, followed by a pipe, followed by a directory (absolute or relative to your code). Use forward slashes or \\escaped backslashes.
-    * Example: `Caffeine|c:/Users/Angus/Documents/MyModels/caffeine.obj`
-  * Page Manifest: on each line, a series of model names separated by commas.
-    * Example: `Caffeine,Hydrochloric Acid,Buckminsterfullerene`
+    * Model Manifest: on each line, a model name, followed by a pipe, followed by a directory (absolute or relative to your code). Use forward slashes or \\escaped backslashes.
+        * Example: `Caffeine|c:/Users/Angus/Documents/MyModels/caffeine.obj`
+    * Page Manifest: on each line, a series of model names separated by commas.
+        * Example: `Caffeine,Hydrochloric Acid,Buckminsterfullerene`
 2. Import the nuget package into your code
-  1. ```xml
-     <RestoreSources>$(RestoreSources);absolute-path-to-my-solution/library/bin/Debug;https://api.nuget.org/v3/index.json</RestoreSources>
-     ```
+    1. Add to your .csproj file in PropertyGroup:  
+       ```xml
+       <RestoreSources>$(RestoreSources);absolute/path/to/folder/containing/package;https://api.nuget.org/v3/index.json</RestoreSources>
+       ```
+    2. Call `dotnet add app package ModelBank` from the solution root
+    3. Add a `using ModelBank;` statement to the top of your `.cs` file where you're using the package
 
 3. Create a new `ModelBank` object by constructing it with a name string for your book
 4. Add models to your book by calling `<your ModelBank object>.MakeBook(pathToModelManifest)`
